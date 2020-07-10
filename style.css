@@ -1,19 +1,28 @@
 h1 {
     text-align: center; /* centré */
+    color: red
     }
 
     h2 {
         text-align: center; /* centré */
+        color: brown
         }
 
         h2 {
             border-bottom:1px solid black;
             }
 
+            h3 {color: brown}
+
         img {
             width: 250px;
             height: 150px;
             text-align: center;  /* centré */
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            border-radius: 50%;
             }
           
         p {
